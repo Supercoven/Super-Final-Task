@@ -43,7 +43,10 @@ void SecondArr (string [] MainArray)
     Console.Write($"]");
 }
 
-
+// создаём массив
 string [] MainArray = CreateArray();
+
+// вывод ввёднного пользователем массива в консоль
 PrintArray(MainArray);
+// вывод массива в котором длина строк 3 или менее символов
 SecondArr(MainArray);
