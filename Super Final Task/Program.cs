@@ -43,6 +43,7 @@ void SecondArr (string [] MainArray)
     Console.Write($"]");
 }
 
+
 string [] MainArray = CreateArray();
 PrintArray(MainArray);
 SecondArr(MainArray);
